@@ -5,43 +5,69 @@ using UnityEngine.UI;
 
 public class StressBar : MonoBehaviour
 {
-    // startingStressLevel is public so it can be changed in the menus of Unity.
-    public int startingStressLevel;
-    // this is a placeholder until we have a UI bar or something for stress.
-    public Text stressLvlText;
-    // stressLevel represents a percentage. 0 is no stress and 100 is full stress (lose game).
-    private int stressLevel;
-    private int maxStress = 100; // in case we want to have power-ups to alter this number.
+	// stressBar is the slider object in Unity.
+	public Slider stressBar;
+    // startingStressLevel is public so it can be changed in the menus of Unity. Should be between 0 and 1.
+    public float startingStressLevel;
+    // stressLvlText is for if we want to add text on top of the stress bar
+    //public Text stressLvlText;
+    private float maxStress = 1f; // in case we want to have power-ups to alter this number.
+	private float minStress = 0f; // this is just to make the code cleaner to read.
+	//[SerializeField]
+	// stressLevel represents a percentage as a float. 0 is no stress and 1 is full stress (lose game).
+	private float stressLevel;
+	public float StressLevel
+	{
+		get { return stressLevel; }
+		set
+		{
+			stressLevel = value;
+			stressBar.value = stressLevel;
+			//stressLvlText.text = (stressLevel * 100).ToString("0.00") + "%";
+		}
+	}
 
-    // Start is called before the first frame update
-    void Start()
+	// Start is called before the first frame update
+	void Start()
     {
         stressLevel = startingStressLevel;
+   		stressBar.maxValue = maxStress;
     }
 
     // Update is called once per frame
     void Update()
     {
-        checkStressLevel();
+		// -- TESTING PURPOSE --
+		//stressLevel += 0.0043f;
+
+        stressBar.value = stressLevel;
     }
 
+    //LateUpdate called end of each frame
     private void LateUpdate()
     {
         checkStressLevel();
-        // Adjust the placeholder text. Replace this when we have a UI.
-        stressLvlText.text = stressLevel.ToString() + "%";
     }
 
-    /**
-     *  Takes an integer value and adds it to the stress level.
+	/**
+     *  Takes a float value and adds it to the stress level. 
+     *  This value is taken as a float ranging from 0 to maxStress (Default: 1).
+     *  If the new value of the stress level is above or equal the maxStress
+     *  (Default: 1), the player loses the game.
      */
-    public void increaseStress(int amount)
-    {
-        if(!(stressLevel >= maxStress))
-        {
-            stressLevel += amount;
-        }
-    }
+	public void increaseStress(float amount)
+	{
+		float tempStress = stressLevel - amount;
+		if (!(stressLevel >= maxStress) && !(tempStress >= maxStress))
+		{
+			stressLevel += amount;
+		}
+		else if (!(stressLevel >= maxStress) && (tempStress >= maxStress))
+		{
+			stressLevel = maxStress;
+			loseGame();
+		}
+	}
 
     /**
      *  Takes an integer value and subtracts it to the stress level.
@@ -50,14 +76,14 @@ public class StressBar : MonoBehaviour
      */
     public void decreaseStress(int amount)
     {
-        int tempStress = stressLevel - amount;
-        if(!(stressLevel < 0) && !(tempStress < 0))
+        float tempStress = stressLevel - amount;
+        if(!(stressLevel < minStress) && !(tempStress < minStress))
         {
             stressLevel -= amount;
         }
-        else if(!(stressLevel <0) && (tempStress < 0))
+        else if(!(stressLevel < minStress) && (tempStress < minStress))
         {
-            stressLevel = 0;
+            stressLevel = minStress;
         }
     }
 
@@ -68,13 +94,19 @@ public class StressBar : MonoBehaviour
      */
     private void checkStressLevel()
     {
-        if (stressLevel < 0) // Prevent negative stress level
+        if (stressLevel < minStress) // Prevent negative stress level
         {
-            stressLevel = 0;
-        }
+			stressLevel = minStress;
+
+		}
         else if (stressLevel >= maxStress)
         {
-            // Game loss functions
+			loseGame();
         }
     }
+
+    private void loseGame()
+	{
+        // you lose the game
+	}
 }
