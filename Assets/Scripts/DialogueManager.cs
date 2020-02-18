@@ -37,6 +37,11 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+    /**
+     * Checks to see if the sentences Queue is empty and ends the dialogue if
+     * there are no more sentences. This will print the sentence letter by
+     * letter and stop animations that are already in progress.
+     */
     public void DisplayNextSentence()
     {
         // If you have reached the end of the queue, end the dialogue.
@@ -52,6 +57,10 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(TypeSentence(sentence));
     }
 
+    /**
+     * Prints the sentence letter by letter and leaves a single
+     * frame in-between letters.
+     */
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
@@ -63,8 +72,8 @@ public class DialogueManager : MonoBehaviour
     }
 
     /**
-     * This will enter 'End of conversation.' into the debug log. This will later
-     * be adapted to close the dialogue window and allow the game to continue.
+     * Sets the isOpen animation attribute to false in order to close the
+     * dialogue box.
      */
     public void EndDialogue()
     {
