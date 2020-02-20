@@ -591,9 +591,12 @@ MonoBehaviour:
     name: Kevin
     isDialogueTree: 0
     sentences:
-    - Hi! My name is Kevin!
-    - Welcome to this social anxiety simulartor, AKA my life!
-    - Please leave me alone.
+    - sentence: Hi! My name is Kevin!
+      isFinal: 0
+    - sentence: Welcome to this social anxiety simulator! AKA my life!
+      isFinal: 0
+    - sentence: Please go away.
+      isFinal: 0
     yesSentences: []
     noSentences: []
 --- !u!114 &831712108
@@ -1104,13 +1107,18 @@ MonoBehaviour:
     name: Carl
     isDialogueTree: 1
     sentences:
-    - Did you do that assignment?
+    - sentence: Did you do that problem?
+      isFinal: 0
     yesSentences:
-    - Was it hard?
-    - I thought so too.
+    - sentence: Was it hard?
+      isFinal: 0
+    - sentence: I thought so too.
+      isFinal: 1
     noSentences:
-    - Oh okay.
-    - Well I did.
+    - sentence: Oh ok.
+      isFinal: 1
+    - sentence: Well I thought it was.
+      isFinal: 1
 --- !u!114 &1330016573
 MonoBehaviour:
   m_ObjectHideFlags: 0

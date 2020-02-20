@@ -13,15 +13,15 @@ public class DialogueManager : MonoBehaviour
     public GameObject yesButton;
     public GameObject noButton;
 
-    private Queue<string> sentences;
-    private Queue<string> yesSentences;
-    private Queue<string> noSentences;
+    private Queue<Sentence> sentences;
+    private Queue<Sentence> yesSentences;
+    private Queue<Sentence> noSentences;
 
     void Start()
     {
-        sentences = new Queue<string>();
-        yesSentences = new Queue<string>();
-        noSentences = new Queue<string>();
+        sentences = new Queue<Sentence>();
+        yesSentences = new Queue<Sentence>();
+        noSentences = new Queue<Sentence>();
     }
 
     /**
@@ -43,11 +43,11 @@ public class DialogueManager : MonoBehaviour
             yesButton.SetActive(true);
             noButton.SetActive(true);
 
-            foreach (string sentence in d.yesSentences)
+            foreach (Sentence sentence in d.yesSentences)
             {
                 yesSentences.Enqueue(sentence);
             }
-            foreach (string sentence in d.noSentences)
+            foreach (Sentence sentence in d.noSentences)
             {
                 noSentences.Enqueue(sentence);
             }
@@ -59,7 +59,7 @@ public class DialogueManager : MonoBehaviour
             noButton.SetActive(false);
         }
 
-        foreach (string sentence in d.sentences)
+        foreach (Sentence sentence in d.sentences)
         {
             sentences.Enqueue(sentence);
         }
@@ -81,7 +81,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        string sentence = sentences.Dequeue();
+        string sentence = sentences.Dequeue().sentence;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
@@ -92,7 +92,7 @@ public class DialogueManager : MonoBehaviour
      */
     public void DisplayNextYesSentence()
     {
-        CheckLastYesSentence();
+        CheckLastYesSentence(yesSentences.Peek());
         sentences.Enqueue(yesSentences.Dequeue());
         noSentences.Dequeue();
         DisplayNextSentence();
@@ -104,7 +104,7 @@ public class DialogueManager : MonoBehaviour
      */
     public void DisplayNextNoSentence()
     {
-        CheckLastNoSentence();
+        CheckLastNoSentence(noSentences.Peek());
         sentences.Enqueue(noSentences.Dequeue());
         yesSentences.Dequeue();
         DisplayNextSentence();
@@ -138,9 +138,9 @@ public class DialogueManager : MonoBehaviour
      * If it is, the continue button returns to close the dialogue since it
      * should not be a 'yes' or 'no' question.
      */
-    public void CheckLastYesSentence()
+    public void CheckLastYesSentence(Sentence s)
     {
-        if (yesSentences.Count == 1)
+        if (yesSentences.Count == 1 || s.isFinal)
         {
             continueButton.SetActive(true);
             yesButton.SetActive(false);
@@ -155,9 +155,9 @@ public class DialogueManager : MonoBehaviour
      * If it is, the continue button returns to close the dialogue since it
      * should not be a 'yes' or 'no' question.
      */
-    public void CheckLastNoSentence()
+    public void CheckLastNoSentence(Sentence s)
     {
-        if (noSentences.Count == 1)
+        if (noSentences.Count == 1 || s.isFinal)
         {
             continueButton.SetActive(true);
             yesButton.SetActive(false);
