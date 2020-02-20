@@ -9,12 +9,19 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    public GameObject continueButton;
+    public GameObject yesButton;
+    public GameObject noButton;
 
     private Queue<string> sentences;
+    private Queue<string> yesSentences;
+    private Queue<string> noSentences;
 
     void Start()
     {
         sentences = new Queue<string>();
+        yesSentences = new Queue<string>();
+        noSentences = new Queue<string>();
     }
 
     /**
@@ -26,8 +33,31 @@ public class DialogueManager : MonoBehaviour
         //Debug.Log("Starting conversation with " + d.name);
         animator.SetBool("isOpen", true);
         sentences.Clear();
-
+        yesSentences.Clear();
+        noSentences.Clear();
+       
         nameText.text = d.name;
+        if (d.isDialogueTree)
+        { 
+            continueButton.SetActive(false);
+            yesButton.SetActive(true);
+            noButton.SetActive(true);
+
+            foreach (string sentence in d.yesSentences)
+            {
+                yesSentences.Enqueue(sentence);
+            }
+            foreach (string sentence in d.noSentences)
+            {
+                noSentences.Enqueue(sentence);
+            }
+        }
+        else
+        {
+            continueButton.SetActive(true);
+            yesButton.SetActive(false);
+            noButton.SetActive(false);
+        }
 
         foreach (string sentence in d.sentences)
         {
@@ -52,9 +82,32 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        //dialogueText.text = sentence;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+    }
+
+    /**
+     * This will print the next sentence if answered yes to previous question.
+     * This will stop all animations that are already in progress.
+     */
+    public void DisplayNextYesSentence()
+    {
+        CheckLastYesSentence();
+        sentences.Enqueue(yesSentences.Dequeue());
+        noSentences.Dequeue();
+        DisplayNextSentence();
+    }
+
+    /**
+     * This will print the next sentence if answered no to previous question.
+     * This will stop all animations that are already in progress.
+     */
+    public void DisplayNextNoSentence()
+    {
+        CheckLastNoSentence();
+        sentences.Enqueue(noSentences.Dequeue());
+        yesSentences.Dequeue();
+        DisplayNextSentence();
     }
 
     /**
@@ -77,7 +130,40 @@ public class DialogueManager : MonoBehaviour
      */
     public void EndDialogue()
     {
-        //Debug.Log("End of conversation.");
         animator.SetBool("isOpen", false);
+    }
+
+    /**
+     * Checks to see if the current sentence is the last in the Dialogue tree.
+     * If it is, the continue button returns to close the dialogue since it
+     * should not be a 'yes' or 'no' question.
+     */
+    public void CheckLastYesSentence()
+    {
+        if (yesSentences.Count == 1)
+        {
+            continueButton.SetActive(true);
+            yesButton.SetActive(false);
+            noButton.SetActive(false);
+            return;
+        }
+        return;
+    }
+
+    /**
+     * Checks to see if the current sentence is the last in the Dialogue tree.
+     * If it is, the continue button returns to close the dialogue since it
+     * should not be a 'yes' or 'no' question.
+     */
+    public void CheckLastNoSentence()
+    {
+        if (noSentences.Count == 1)
+        {
+            continueButton.SetActive(true);
+            yesButton.SetActive(false);
+            noButton.SetActive(false);
+            return;
+        }
+        return;
     }
 }
