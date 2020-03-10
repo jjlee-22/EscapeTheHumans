@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,6 +9,7 @@ public class DialogueManager : MonoBehaviour
 
     public Text nameText;
     public Text dialogueText;
+    public StressBar stressBar;
     public Animator animator;
     public GameObject continueButton;
     public GameObject yesButton;
@@ -81,6 +83,8 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        AffectStress(sentences.Peek());
+
         string sentence = sentences.Dequeue().sentence;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
@@ -93,6 +97,7 @@ public class DialogueManager : MonoBehaviour
     public void DisplayNextYesSentence()
     {
         CheckLastYesSentence(yesSentences.Peek());
+        AffectStress(yesSentences.Peek());
         sentences.Enqueue(yesSentences.Dequeue());
         noSentences.Dequeue();
         DisplayNextSentence();
@@ -105,6 +110,7 @@ public class DialogueManager : MonoBehaviour
     public void DisplayNextNoSentence()
     {
         CheckLastNoSentence(noSentences.Peek());
+        AffectStress(noSentences.Peek());
         sentences.Enqueue(noSentences.Dequeue());
         yesSentences.Dequeue();
         DisplayNextSentence();
@@ -165,5 +171,22 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         return;
+    }
+
+    /**
+     * Will adjust the stress amount on the stress bar according to the
+     * amount given as part of the sentence. 
+     */
+    public void AffectStress(Sentence s)
+    {
+        float amount = s.getEffectOnStress();
+        if (amount < 0)
+        {
+            stressBar.decreaseStress(Math.Abs(amount));
+        }
+        else if (amount > 0)
+        {
+            stressBar.increaseStress(Math.Abs(amount));
+        }
     }
 }
