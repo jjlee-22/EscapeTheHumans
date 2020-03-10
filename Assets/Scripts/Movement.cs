@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
 	    animator.SetFloat("Vertical", movement.y);
 	    animator.SetFloat("Magnitude", movement.magnitude);
 
-	    transform.position= transform.position+movement* Time.deltaTime*10;
+	    transform.position= transform.position+movement* Time.deltaTime*4;
         
         if (movement.y > 0)
         {
