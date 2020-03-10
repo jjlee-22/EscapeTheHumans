@@ -74,7 +74,7 @@ public class StressBar : MonoBehaviour
      *  If the new value would be less than the minimum of 0,
      *  then the stress level is set to 0.
      */
-    public void decreaseStress(int amount)
+    public void decreaseStress(float amount)
     {
         float tempStress = stressLevel - amount;
         if(!(stressLevel < minStress) && !(tempStress < minStress))
