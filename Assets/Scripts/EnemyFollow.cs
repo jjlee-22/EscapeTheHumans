@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,17 +24,26 @@ public class EnemyFollow : MonoBehaviour
         }
         else
         {
+            /**
+             * Triggers the dialogue if it has not been triggered yet and stops
+             * the enemy from following.
+             */
             if (!hasTriggeredDialogue)
             {
                 dialogueTrigger.TriggerDialogue();
+                try
+                {
+                    target = null;
+                }
+                catch (Exception e)
+                {
+                    // This is just here to prevent null reference errors once the
+                    // following NPC no longer needs a target.
+                    Console.WriteLine("");
+                }
                 hasTriggeredDialogue = true;
             }
         }
-        //else
-        //{
-        //    dialogueTrigger.TriggerDialogue();
-        //}
-        //Maybe make an else statement here to trigger the dialogue and maybe a boolean so
         //after the dialogue, the enemy will not chase anymore
     }
 }
