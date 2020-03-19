@@ -3,54 +3,42 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowBehavoir : StateMachineBehaviour
+public class idleBehaviour : StateMachineBehaviour
 {
-    private Transform playerPos;
-    public float speed;
+    private Transform target;
     public DialogueTrigger dialogueTrigger;
     private bool hasTriggeredDialogue = false;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
         dialogueTrigger=GameObject.Find("Enemy2").GetComponent<DialogueTrigger>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(animator.GetBool("isFollowing")){
-            if(Vector2.Distance(animator.transform.position, playerPos.position) > 2){
-                animator.transform.position = Vector3.MoveTowards(animator.transform.position, playerPos.position,speed * Time.deltaTime);
-                if(Vector2.Distance(animator.transform.position, playerPos.position) >5){
-                    animator.SetBool("isFollowing",false);
+        if(!animator.GetBool("hadDialog")){
+            if(Vector2.Distance(animator.transform.position, target.position) > 2){
+                if(Vector2.Distance(animator.transform.position, target.position) <5)
+                {
+                    animator.SetBool("isFollowing",true);
                 }
             }
-            else
-            {
-                /**
-                * Triggers the dialogue if it has not been triggered yet and stops
-                * the enemy from following.
-                */
-                if (!hasTriggeredDialogue)
-                {
-                   // dialogueTrigger.TriggerDialogue();
-                    //try
-                    //{
-                      //  playerPos = null;
-                    //}
-                    //catch (Exception e)
-                    //{
+        }
+        else if(!hasTriggeredDialogue){
+             dialogueTrigger.TriggerDialogue();
+                    try
+                    {
+                        target = null;
+                    }
+                    catch (Exception e)
+                    {
                         // This is just here to prevent null reference errors once the
                         // following NPC no longer needs a target.
-                     //   Console.WriteLine("");
-                    //}
-                    hasTriggeredDialogue = true;
-                    animator.SetBool("hadDialog",true);
-                    animator.SetBool("isFollowing", false);
-                }
-            }
-        //after the dialogue, the enemy will not chase anymore
+                        Console.WriteLine("");
+                    }
+                hasTriggeredDialogue=true;
         }
     }
 
