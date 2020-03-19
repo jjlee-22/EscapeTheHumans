@@ -34,17 +34,8 @@ public class FollowBehavoir : StateMachineBehaviour
                 */
                 if (!hasTriggeredDialogue)
                 {
-                   // dialogueTrigger.TriggerDialogue();
-                    //try
-                    //{
-                      //  playerPos = null;
-                    //}
-                    //catch (Exception e)
-                    //{
-                        // This is just here to prevent null reference errors once the
-                        // following NPC no longer needs a target.
-                     //   Console.WriteLine("");
-                    //}
+                    dialogueTrigger.TriggerDialogue();
+                   
                     hasTriggeredDialogue = true;
                     animator.SetBool("hadDialog",true);
                     animator.SetBool("isFollowing", false);

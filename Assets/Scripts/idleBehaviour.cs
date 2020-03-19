@@ -6,13 +6,10 @@ using UnityEngine;
 public class idleBehaviour : StateMachineBehaviour
 {
     private Transform target;
-    public DialogueTrigger dialogueTrigger;
-    private bool hasTriggeredDialogue = false;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        dialogueTrigger=GameObject.Find("Enemy2").GetComponent<DialogueTrigger>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -26,20 +23,7 @@ public class idleBehaviour : StateMachineBehaviour
                 }
             }
         }
-        else if(!hasTriggeredDialogue){
-             dialogueTrigger.TriggerDialogue();
-                    try
-                    {
-                        target = null;
-                    }
-                    catch (Exception e)
-                    {
-                        // This is just here to prevent null reference errors once the
-                        // following NPC no longer needs a target.
-                        Console.WriteLine("");
-                    }
-                hasTriggeredDialogue=true;
-        }
+        
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
