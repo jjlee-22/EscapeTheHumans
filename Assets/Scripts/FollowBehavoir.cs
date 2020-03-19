@@ -13,7 +13,7 @@ public class FollowBehavoir : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;
-        dialogueTrigger=GameObject.Find("Enemy2").GetComponent<DialogueTrigger>();
+        dialogueTrigger=GameObject.Find(animator.transform.name).GetComponent<DialogueTrigger>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
