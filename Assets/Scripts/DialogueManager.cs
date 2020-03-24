@@ -28,11 +28,14 @@ public class DialogueManager : MonoBehaviour
 
     /**
      * Starts the given dialogue. Accesses the string array called 'sentences'
-     * within each Dialogue object. Takes a Dialogue object as an input.
+     * within each Dialogue object. Takes a Dialogue object as an input. This
+     * will also disable the player Movement script in order to freeze player
+     * movement during the duration of the dialgue.
      */
     public void StartDialogue(Dialogue d)
     {
-        //Debug.Log("Starting conversation with " + d.name);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled
+            = false; // Freezes player movement
         animator.SetBool("isOpen", true);
         sentences.Clear();
         yesSentences.Clear();
@@ -132,11 +135,14 @@ public class DialogueManager : MonoBehaviour
 
     /**
      * Sets the isOpen animation attribute to false in order to close the
-     * dialogue box.
+     * dialogue box. Enables the player Movement script again in order to allow
+     * the player to move again.
      */
     public void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled
+            = true; // Unfreeze player movement
     }
 
     /**
