@@ -730,15 +730,21 @@ MonoBehaviour:
     name: Girlfriend
     isDialogueTree: 1
     sentences:
-    - sentence: Hello! Are you well?
+    - sentence: Hey! Do you want to get dinner tonight?
       isFinal: 0
       effectOnStress: 0
     yesSentences:
-    - sentence: That's good!
+    - sentence: Do you want to try that new Chinese place?
+      isFinal: 0
+      effectOnStress: 0
+    - sentence: Great!
       isFinal: 1
       effectOnStress: 0
     noSentences:
-    - sentence: Well get better!
+    - sentence: Fine, whatever.
+      isFinal: 1
+      effectOnStress: 0.05
+    - sentence: Fine, we can get something else.
       isFinal: 1
       effectOnStress: 0.05
 --- !u!1 &697529070
