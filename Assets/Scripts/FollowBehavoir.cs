@@ -13,7 +13,7 @@ public class FollowBehavoir : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;
-        dialogueTrigger=GameObject.Find("Enemy2").GetComponent<DialogueTrigger>();
+        dialogueTrigger=GameObject.Find(animator.transform.name).GetComponent<DialogueTrigger>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -34,17 +34,8 @@ public class FollowBehavoir : StateMachineBehaviour
                 */
                 if (!hasTriggeredDialogue)
                 {
-                   // dialogueTrigger.TriggerDialogue();
-                    //try
-                    //{
-                      //  playerPos = null;
-                    //}
-                    //catch (Exception e)
-                    //{
-                        // This is just here to prevent null reference errors once the
-                        // following NPC no longer needs a target.
-                     //   Console.WriteLine("");
-                    //}
+                    dialogueTrigger.TriggerDialogue();
+                   
                     hasTriggeredDialogue = true;
                     animator.SetBool("hadDialog",true);
                     animator.SetBool("isFollowing", false);
