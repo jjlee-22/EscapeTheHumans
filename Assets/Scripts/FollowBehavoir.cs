@@ -24,6 +24,7 @@ public class FollowBehavoir : StateMachineBehaviour
                 animator.transform.position = Vector3.MoveTowards(animator.transform.position, playerPos.position,speed * Time.deltaTime);
                 if(Vector2.Distance(animator.transform.position, playerPos.position) >5){
                     animator.SetBool("isFollowing",false);
+                    animator.SetBool("isReturning", true);
                 }
             }
             else
