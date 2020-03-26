@@ -21,7 +21,13 @@ public class FollowBehavoir : StateMachineBehaviour
     {
         if(animator.GetBool("isFollowing")){
             if(Vector2.Distance(animator.transform.position, playerPos.position) > 2){
+                float oldX=animator.transform.position.x;
+                float oldY=animator.transform.position.y;
                 animator.transform.position = Vector3.MoveTowards(animator.transform.position, playerPos.position,speed * Time.deltaTime);
+                Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
+                animator.SetFloat("Horizontal", movement.x-oldX);
+                animator.SetFloat("Vertical", movement.y-oldY);
+        
                 if(Vector2.Distance(animator.transform.position, playerPos.position) >5){
                     animator.SetBool("isFollowing",false);
                     animator.SetBool("isReturning", true);
