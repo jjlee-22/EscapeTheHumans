@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class idleBehaviour : StateMachineBehaviour
+public class idleFollowNPCBehaviour : StateMachineBehaviour
 {
     private Transform target;
     private Vector2 start;
