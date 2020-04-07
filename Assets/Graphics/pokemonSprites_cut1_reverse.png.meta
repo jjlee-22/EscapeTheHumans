@@ -633,9 +633,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 27
-        y: 197.1
-        width: 16.714285
-        height: 21.9
+        y: 197
+        width: 15
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,12 +905,12 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_14
       rect:
         serializedVersion: 2
-        x: 11
-        y: 155.1
-        width: 16.714285
-        height: 21.9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 154
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.44763216, y: 0.4900078}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -926,10 +926,10 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_15
       rect:
         serializedVersion: 2
-        x: 27
-        y: 155.1
-        width: 16.714285
-        height: 21.9
+        x: 21
+        y: 154
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -947,10 +947,10 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_16
       rect:
         serializedVersion: 2
-        x: 43
-        y: 155.1
-        width: 16.714285
-        height: 21.9
+        x: 40
+        y: 154
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -989,10 +989,10 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_18
       rect:
         serializedVersion: 2
-        x: 75
-        y: 155.1
-        width: 16.714285
-        height: 21.9
+        x: 74
+        y: 154
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_21
       rect:
         serializedVersion: 2
-        x: 11
-        y: 134.1
-        width: 16.714285
-        height: 21.9
+        x: 4
+        y: 129
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1073,10 +1073,10 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_22
       rect:
         serializedVersion: 2
-        x: 27
-        y: 134.1
-        width: 16.714285
-        height: 21.9
+        x: 22
+        y: 129
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,10 +1136,10 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_25
       rect:
         serializedVersion: 2
-        x: 75
-        y: 134.1
-        width: 16.714285
-        height: 21.9
+        x: 73
+        y: 129
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1934,10 +1934,10 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_63
       rect:
         serializedVersion: 2
-        x: 11
-        y: 8.1
-        width: 16.714285
-        height: 21.9
+        x: 2
+        y: 2
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1955,12 +1955,12 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_64
       rect:
         serializedVersion: 2
-        x: 27
-        y: 8.1
-        width: 16.714285
-        height: 21.9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 21
+        y: 2
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5279568, y: 0.56480813}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2018,12 +2018,12 @@ TextureImporter:
       name: pokemonSprites_cut1_reverse_67
       rect:
         serializedVersion: 2
-        x: 75
-        y: 8.1
-        width: 16.714285
-        height: 21.9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 72
+        y: 2
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.38626245, y: 0.5434025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
