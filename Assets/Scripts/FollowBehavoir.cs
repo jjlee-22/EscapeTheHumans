@@ -20,7 +20,7 @@ public class FollowBehavoir : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if(animator.GetBool("isFollowing")){
-            if(Vector2.Distance(animator.transform.position, playerPos.position) > 2){
+            if(Vector2.Distance(animator.transform.position, playerPos.position) > 1){
                 float oldX=animator.transform.position.x;
                 float oldY=animator.transform.position.y;
                 animator.transform.position = Vector3.MoveTowards(animator.transform.position, playerPos.position,speed * Time.deltaTime);
@@ -28,7 +28,7 @@ public class FollowBehavoir : StateMachineBehaviour
                 animator.SetFloat("Horizontal", movement.x-oldX);
                 animator.SetFloat("Vertical", movement.y-oldY);
         
-                if(Vector2.Distance(animator.transform.position, playerPos.position) >5){
+                if(Vector2.Distance(animator.transform.position, playerPos.position) >4){
                     animator.SetBool("isFollowing",false);
                     animator.SetBool("isReturning", true);
                 }
