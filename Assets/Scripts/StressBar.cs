@@ -1,12 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StressBar : MonoBehaviour
 {
 	// stressBar is the slider object in Unity.
 	public Slider stressBar;
+    public Text lossText;
+    public Button mainMenu;
     // startingStressLevel is public so it can be changed in the menus of Unity. Should be between 0 and 1.
     public float startingStressLevel;
     // stressLvlText is for if we want to add text on top of the stress bar
@@ -32,6 +36,9 @@ public class StressBar : MonoBehaviour
     {
         stressLevel = startingStressLevel;
    		stressBar.maxValue = maxStress;
+        lossText.text = "";
+        mainMenu.interactable = false;
+        mainMenu.GetComponentInChildren<Text>().text = "";
     }
 
     // Update is called once per frame
@@ -107,6 +114,14 @@ public class StressBar : MonoBehaviour
 
     private void loseGame()
 	{
-        // you lose the game
-	}
+        lossText.text = "Your stress level is too high!" + Environment.NewLine + "Maybe you should go rest.";
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled = false;
+        mainMenu.interactable = true;
+        mainMenu.GetComponentInChildren<Text>().text = "Main Menu";
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
