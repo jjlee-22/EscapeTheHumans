@@ -11,7 +11,9 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         // This will load the next scene in the build order. This can be changed to load a specific scene.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        SceneManager.LoadScene("Level_1");
     }
 
     // Loads the scene containing instructions on how to play the game.
