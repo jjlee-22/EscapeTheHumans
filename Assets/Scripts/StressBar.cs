@@ -11,15 +11,13 @@ public class StressBar : MonoBehaviour
 	public Slider stressBar;
     public Text lossText;
     public Button mainMenu;
-    // startingStressLevel is public so it can be changed in the menus of Unity. Should be between 0 and 1.
-    public float startingStressLevel;
     // stressLvlText is for if we want to add text on top of the stress bar
     //public Text stressLvlText;
     private float maxStress = 1f; // in case we want to have power-ups to alter this number.
 	private float minStress = 0f; // this is just to make the code cleaner to read.
 	//[SerializeField]
 	// stressLevel represents a percentage as a float. 0 is no stress and 1 is full stress (lose game).
-	private float stressLevel;
+	static private float stressLevel = 0;
 	public float StressLevel
 	{
 		get { return stressLevel; }
@@ -34,7 +32,6 @@ public class StressBar : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-        stressLevel = startingStressLevel;
    		stressBar.maxValue = maxStress;
         lossText.text = "";
         mainMenu.interactable = false;
@@ -44,9 +41,6 @@ public class StressBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		// -- TESTING PURPOSE --
-		//stressLevel += 0.0043f;
-
         stressBar.value = stressLevel;
     }
 
