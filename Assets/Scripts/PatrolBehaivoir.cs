@@ -22,30 +22,29 @@ public class PatrolBehaivoir : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(Vector2.Distance(animator.transform.position, movespots[randomspot].position) > 0.2f)
-        {
         float oldX=animator.transform.position.x;
         float oldY=animator.transform.position.y;
+        if(Vector2.Distance(animator.transform.position, movespots[randomspot].position) > 0.2f)
+        {
         animator.transform.position = Vector2.MoveTowards(animator.transform.position, movespots[randomspot].position, speed * Time.deltaTime);
-        Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
-        animator.SetFloat("Horizontal", movement.x-oldX);
-        animator.SetFloat("Vertical", movement.y-oldY);
-        animator.SetFloat("Magnitude", movement.magnitude);
         }
         else
         {
              randomspot = Random.Range(0, movespots.Length);
-             
-            Transform target=GameObject.FindGameObjectWithTag("Player").transform;
-             if(Vector2.Distance(animator.transform.position, target.position) > 2){
+        }
+        Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
+        animator.SetFloat("Horizontal", movement.x-oldX);
+        animator.SetFloat("Vertical", movement.y-oldY);
+        animator.SetFloat("Magnitude", movement.magnitude);
+        
+        Transform target=GameObject.FindGameObjectWithTag("Player").transform;
+         if(Vector2.Distance(animator.transform.position, target.position) > 2){
                 if(Vector2.Distance(animator.transform.position, target.position) <5)
                 {
                     animator.SetBool("isFollowing",true);
                     animator.SetBool("isPatrolling",false);
                 }
              }
-        }
-        
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
