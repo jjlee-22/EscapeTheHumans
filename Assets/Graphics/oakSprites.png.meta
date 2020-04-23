@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 2fcced835ffb3184d86f184c767ad137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7300871602481082637
+    second: oakSprites_0
+  - first:
+      213: -5370405183048184779
+    second: oakSprites_1
+  - first:
+      213: -614420446917610094
+    second: oakSprites_2
+  - first:
+      213: -5696156134254413086
+    second: oakSprites_3
+  - first:
+      213: -8720654926941130512
+    second: oakSprites_4
+  - first:
+      213: 1792833247065767015
+    second: oakSprites_5
+  - first:
+      213: 1454835036564729901
+    second: oakSprites_6
+  - first:
+      213: 8603441392574238181
+    second: oakSprites_7
+  - first:
+      213: -144683935311928843
+    second: oakSprites_8
+  - first:
+      213: -8442103774829881196
+    second: oakSprites_9
+  - first:
+      213: -7346220649235218154
+    second: oakSprites_10
+  - first:
+      213: 7958166612174011413
+    second: oakSprites_11
+  - first:
+      213: -5698824449386826598
+    second: oakSprites_12
+  - first:
+      213: 6880867147339888584
+    second: oakSprites_13
+  - first:
+      213: -525179858047542526
+    second: oakSprites_14
+  - first:
+      213: 3913171096607637060
+    second: oakSprites_15
+  - first:
+      213: -4025789161010220694
+    second: oakSprites_16
+  - first:
+      213: 8776596895097503164
+    second: oakSprites_17
+  - first:
+      213: -1234260673681862491
+    second: oakSprites_18
+  - first:
+      213: 6558704457990974097
+    second: oakSprites_19
+  - first:
+      213: -8602376818404798142
+    second: oakSprites_20
+  - first:
+      213: -7917119920711868874
+    second: oakSprites_21
+  - first:
+      213: 4180614326634417222
+    second: oakSprites_22
+  - first:
+      213: 5587734094980320782
+    second: oakSprites_23
+  - first:
+      213: 1295198419532762557
+    second: oakSprites_24
+  - first:
+      213: -1707220158280088626
+    second: oakSprites_25
+  - first:
+      213: 8110308857013309074
+    second: oakSprites_26
+  - first:
+      213: 5600153699666665422
+    second: oakSprites_27
+  - first:
+      213: -3465539772848078196
+    second: oakSprites_28
+  - first:
+      213: 7891573275319155691
+    second: oakSprites_29
+  - first:
+      213: -111651405303771394
+    second: oakSprites_30
+  - first:
+      213: 2445925966180356720
+    second: oakSprites_31
+  - first:
+      213: 255249757507904012
+    second: oakSprites_32
+  - first:
+      213: -8194204860943826934
+    second: oakSprites_33
+  - first:
+      213: 3071415726609085949
+    second: oakSprites_34
+  - first:
+      213: 1030960325452373418
+    second: oakSprites_35
+  - first:
+      213: -4839067779241834080
+    second: oakSprites_36
+  - first:
+      213: -2440124959686694948
+    second: oakSprites_37
+  - first:
+      213: -4184857474094054920
+    second: oakSprites_38
+  - first:
+      213: 1884059560576004918
+    second: oakSprites_39
+  - first:
+      213: -4115760889954338429
+    second: oakSprites_40
+  - first:
+      213: -2584322050731932290
+    second: oakSprites_41
+  - first:
+      213: -7343387002344815999
+    second: oakSprites_42
+  - first:
+      213: -7557580085429493614
+    second: oakSprites_43
+  - first:
+      213: -5525631055808323102
+    second: oakSprites_44
+  - first:
+      213: 421998229724602550
+    second: oakSprites_45
+  - first:
+      213: 816426584413747452
+    second: oakSprites_46
+  - first:
+      213: -4946095313527800450
+    second: oakSprites_47
+  - first:
+      213: 276113168462591351
+    second: oakSprites_48
+  - first:
+      213: 2065550358396175391
+    second: oakSprites_49
+  - first:
+      213: -3018290084121942211
+    second: oakSprites_50
+  - first:
+      213: 1224110304195506674
+    second: oakSprites_51
+  - first:
+      213: -8632355843094248363
+    second: oakSprites_52
+  - first:
+      213: -3169511845987935460
+    second: oakSprites_53
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oakSprites_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 137
+        width: 25
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5345488, y: 0.5287908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d013f907a08e15560800000000000000
+      internalID: 7300871602481082637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 137
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c0f7c80fc7875b0800000000000000
+      internalID: -5370405183048184779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 137
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2953dbedbd32977f0800000000000000
+      internalID: -614420446917610094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 111
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea7a98ec2033f0b0800000000000000
+      internalID: -5696156134254413086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 112
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0f9e64c820af680800000000000000
+      internalID: -8720654926941130512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 107
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c7dd0e65c61e810800000000000000
+      internalID: 1792833247065767015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 110
+        width: 25
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4481775, y: 0.5431862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20bb39f1cc903410800000000000000
+      internalID: 1454835036564729901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 77
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed87421d50956770800000000000000
+      internalID: 8603441392574238181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 77
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1e6073abafdfdf0800000000000000
+      internalID: -144683935311928843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 77
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498d740585f97da80800000000000000
+      internalID: -8442103774829881196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 77
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61102b0dd3bfc0a90800000000000000
+      internalID: -7346220649235218154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 47
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c710e9e56117e60800000000000000
+      internalID: 7958166612174011413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94bcf06b55b9e0b0800000000000000
+      internalID: -5698824449386826598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 47
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c779dfc630cd7f50800000000000000
+      internalID: 6880867147339888584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 47
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bd2ed93bf26b8f0800000000000000
+      internalID: -525179858047542526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ebf9621606e4630800000000000000
+      internalID: 3913171096607637060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a613e5d66168128c0800000000000000
+      internalID: -4025789161010220694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 17
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd351d206cbcc970800000000000000
+      internalID: 8776596895097503164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakSprites_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 17
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a055f8e4760fdee0800000000000000
+      internalID: -1234260673681862491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
