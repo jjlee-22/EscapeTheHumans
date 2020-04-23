@@ -7,7 +7,7 @@ public class FollowBehavoir : StateMachineBehaviour
 {
     private Transform playerPos;
     public float speed;
-    public DialogueTrigger dialogueTrigger;
+    private DialogueTrigger dialogueTrigger;
     private bool hasTriggeredDialogue = false;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -20,7 +20,8 @@ public class FollowBehavoir : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if(animator.GetBool("isFollowing")){
-            if(Vector2.Distance(animator.transform.position, playerPos.position) > 1){
+            if(Vector2.Distance(animator.transform.position, playerPos.position) > 1)
+            {
                 float oldX=animator.transform.position.x;
                 float oldY=animator.transform.position.y;
                 animator.transform.position = Vector3.MoveTowards(animator.transform.position, playerPos.position,speed * Time.deltaTime);
@@ -28,7 +29,8 @@ public class FollowBehavoir : StateMachineBehaviour
                 animator.SetFloat("Horizontal", movement.x-oldX);
                 animator.SetFloat("Vertical", movement.y-oldY);
         
-                if(Vector2.Distance(animator.transform.position, playerPos.position) >4){
+                if(Vector2.Distance(animator.transform.position, playerPos.position) >4)
+                { 
                     animator.SetBool("isFollowing",false);
                     animator.SetBool("isReturning", true);
                 }
@@ -46,6 +48,7 @@ public class FollowBehavoir : StateMachineBehaviour
                     hasTriggeredDialogue = true;
                     animator.SetBool("hadDialog",true);
                     animator.SetBool("isFollowing", false);
+                    animator.SetBool("isReturning", true);
                 }
             }
         //after the dialogue, the enemy will not chase anymore

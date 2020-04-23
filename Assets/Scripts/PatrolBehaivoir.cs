@@ -38,7 +38,7 @@ public class PatrolBehaivoir : StateMachineBehaviour
         animator.SetFloat("Magnitude", movement.magnitude);
         
         Transform target=GameObject.FindGameObjectWithTag("Player").transform;
-         if(Vector2.Distance(animator.transform.position, target.position) > 2){
+         if(Vector2.Distance(animator.transform.position, target.position) > 2 && !animator.GetBool("hadDialog")){
                 if(Vector2.Distance(animator.transform.position, target.position) <5)
                 {
                     animator.SetBool("isFollowing",true);
