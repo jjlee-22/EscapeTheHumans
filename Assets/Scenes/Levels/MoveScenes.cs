@@ -11,7 +11,20 @@ public class MoveScenes : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(newLevel);
+            ObjectiveManager om;
+            try
+            {
+                om = GameObject.Find("ObjectiveManager").GetComponent<ObjectiveManager>();
+                if (om.levelComplete)
+                {
+                    SceneManager.LoadScene(newLevel);
+                }
+            }
+            catch
+            {
+                // To prevent scenes with no objectives from being able to continue
+                SceneManager.LoadScene(newLevel);
+            }
         }
     }
 

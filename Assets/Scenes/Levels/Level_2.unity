@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -8717,6 +8717,7 @@ GameObject:
   - component: {fileID: 673803138}
   - component: {fileID: 673803143}
   - component: {fileID: 673803142}
+  - component: {fileID: 673803144}
   m_Layer: 0
   m_Name: neighbor_2
   m_TagString: Untagged
@@ -8875,6 +8876,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.18}
   m_EdgeRadius: 0
+--- !u!114 &673803144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673803137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126b8cde59e1041e191cc6ca7102f033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Mr. Stevens
+    isDialogueTree: 1
+    sentences:
+    - sentence: Hey kid! Are you headed to school?
+      isFinal: 0
+      effectOnStress: 0.02
+    yesSentences:
+    - sentence: I remember when I was in school. You're going to miss it one day!
+      isFinal: 1
+      effectOnStress: 0
+    noSentences:
+    - sentence: Its not good to skip classes! Your mother will be upset with you!
+      isFinal: 1
+      effectOnStress: 0.03
 --- !u!1 &696408910
 GameObject:
   m_ObjectHideFlags: 0
@@ -28801,6 +28829,7 @@ GameObject:
   - component: {fileID: 944855880}
   - component: {fileID: 944855885}
   - component: {fileID: 944855884}
+  - component: {fileID: 944855886}
   m_Layer: 0
   m_Name: neighbor_3
   m_TagString: Untagged
@@ -28958,6 +28987,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &944855886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944855879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126b8cde59e1041e191cc6ca7102f033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Susie
+    isDialogueTree: 1
+    sentences:
+    - sentence: Hey, howdy there! Wanna come to my party this friday?
+      isFinal: 0
+      effectOnStress: 0.02
+    yesSentences:
+    - sentence: Great! I'll send you the details later!
+      isFinal: 1
+      effectOnStress: 0.02
+    noSentences:
+    - sentence: Oh, okay. That's fine I guess...
+      isFinal: 1
+      effectOnStress: 0.05
 --- !u!1 &962471895
 GameObject:
   m_ObjectHideFlags: 0
