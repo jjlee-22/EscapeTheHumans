@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -9462,7 +9462,9 @@ EdgeCollider2D:
   - {x: 7.414427, y: -8.6192255}
   - {x: 7.4016504, y: -9.656323}
   - {x: 17.381554, y: -9.637684}
-  - {x: 17.435543, y: -15.268269}
+  - {x: 17.475014, y: -16.212736}
+  - {x: 14.205791, y: -16.213024}
+  - {x: 14.191767, y: -15.26827}
 --- !u!212 &1421462612
 SpriteRenderer:
   m_ObjectHideFlags: 0
