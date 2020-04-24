@@ -8,6 +8,8 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
+        gameObject.GetComponent<Animator>().enabled= false;
+        gameObject.tag="talker";
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 }
