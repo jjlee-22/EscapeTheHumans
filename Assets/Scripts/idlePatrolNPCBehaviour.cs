@@ -28,7 +28,7 @@ public class idlePatrolNPCBehaviour : StateMachineBehaviour
     {
         if(!animator.GetBool("hadDialog")){
             if(Vector2.Distance(animator.transform.position, target.position) > 2){
-                if(Vector2.Distance(animator.transform.position, target.position) <5)
+                if(Vector2.Distance(animator.transform.position, target.position) <animator.GetFloat("Range"))
                 {
                     animator.SetBool("isFollowing",true);
                 }

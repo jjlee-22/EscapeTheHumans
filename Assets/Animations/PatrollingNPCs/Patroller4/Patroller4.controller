@@ -96,8 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67fca715786ca4429710fe2634ca6bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  startwaittime: 0
+  startwaittime: 1
   movespots: []
 --- !u!114 &-1604182879382605471
 MonoBehaviour:
@@ -111,8 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6075e1a76a68f45818970b77a3c71e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  dialogueTrigger: {fileID: 0}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -179,6 +176,18 @@ AnimatorController:
   - m_Name: originalY
     m_Type: 1
     m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Speed
+    m_Type: 1
+    m_DefaultFloat: 3
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Range
+    m_Type: 1
+    m_DefaultFloat: 4
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
@@ -295,7 +304,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a563845747270bd4cb1916e61a7bcb2f, type: 2}
-    m_Threshold: 0.33333334
+    m_Threshold: 0.25
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -303,7 +312,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 946902ca736303e46a386bfced451637, type: 2}
-    m_Threshold: 0.6666667
+    m_Threshold: 0.5
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -311,7 +320,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 1dc397a71ed2b6c48b2c0bd73d841fe4, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.75
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -320,7 +329,7 @@ BlendTree:
   m_BlendParameter: Horizontal
   m_BlendParameterY: Vertical
   m_MinThreshold: 0
-  m_MaxThreshold: 1
+  m_MaxThreshold: 0.75
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 1
