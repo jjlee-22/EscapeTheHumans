@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class returningBehaivoir : StateMachineBehaviour
 {
-    public float speed;
     private Vector2 start;
     private Transform target;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -21,13 +20,13 @@ public class returningBehaivoir : StateMachineBehaviour
         {
             float oldX=animator.transform.position.x;
             float oldY=animator.transform.position.y;
-            animator.transform.position = Vector3.MoveTowards(animator.transform.position,start,speed * Time.deltaTime);
+            animator.transform.position = Vector3.MoveTowards(animator.transform.position,start,animator.GetFloat("Speed") * Time.deltaTime);
             Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
                 animator.SetFloat("Horizontal", movement.x-oldX);
                 animator.SetFloat("Vertical", movement.y-oldY);
             
              if(Vector2.Distance(animator.transform.position, target.position) > 2){
-                if(Vector2.Distance(animator.transform.position, target.position) <5)
+                if(Vector2.Distance(animator.transform.position, target.position) <animator.GetFloat("Range"))
                 {
                     animator.SetBool("isFollowing",true);
                     animator.SetBool("isReturning", false);

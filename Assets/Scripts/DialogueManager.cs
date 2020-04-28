@@ -143,6 +143,9 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("isOpen", false);
         GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled
             = true; // Unfreeze player movement
+        GameObject.FindGameObjectWithTag("talker").GetComponent<Animator>().enabled
+            = true;
+        GameObject.FindGameObjectWithTag("talker").tag="Untagged";
     }
 
     /**

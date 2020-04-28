@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
@@ -9456,6 +9456,9 @@ EdgeCollider2D:
   - {x: 7.414427, y: -8.6192255}
   - {x: 7.4016504, y: -9.656323}
   - {x: 17.381554, y: -9.637684}
+  - {x: 17.475014, y: -16.212736}
+  - {x: 14.205791, y: -16.213024}
+  - {x: 14.191767, y: -15.26827}
   - {x: 17.407682, y: -15.322128}
   - {x: 16.837963, y: -15.259247}
   - {x: 16.816263, y: -15.688801}

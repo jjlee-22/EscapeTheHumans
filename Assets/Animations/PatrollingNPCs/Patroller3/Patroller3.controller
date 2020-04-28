@@ -93,7 +93,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67fca715786ca4429710fe2634ca6bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
   startwaittime: 0
   movespots: []
 --- !u!114 &-1604182879382605471
@@ -108,8 +107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6075e1a76a68f45818970b77a3c71e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  dialogueTrigger: {fileID: 0}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -176,6 +173,18 @@ AnimatorController:
   - m_Name: originalY
     m_Type: 1
     m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Speed
+    m_Type: 1
+    m_DefaultFloat: 2
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Range
+    m_Type: 1
+    m_DefaultFloat: 4
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}

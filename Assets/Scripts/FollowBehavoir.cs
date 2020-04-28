@@ -6,7 +6,6 @@ using UnityEngine;
 public class FollowBehavoir : StateMachineBehaviour
 {
     private Transform playerPos;
-    public float speed;
     private DialogueTrigger dialogueTrigger;
     private bool hasTriggeredDialogue = false;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -24,12 +23,12 @@ public class FollowBehavoir : StateMachineBehaviour
             {
                 float oldX=animator.transform.position.x;
                 float oldY=animator.transform.position.y;
-                animator.transform.position = Vector3.MoveTowards(animator.transform.position, playerPos.position,speed * Time.deltaTime);
+                animator.transform.position = Vector3.MoveTowards(animator.transform.position, playerPos.position,animator.GetFloat("Speed") * Time.deltaTime);
                 Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
                 animator.SetFloat("Horizontal", movement.x-oldX);
                 animator.SetFloat("Vertical", movement.y-oldY);
         
-                if(Vector2.Distance(animator.transform.position, playerPos.position) >4)
+                if(Vector2.Distance(animator.transform.position, playerPos.position) >animator.GetFloat("Range"))
                 { 
                     animator.SetBool("isFollowing",false);
                     animator.SetBool("isReturning", true);

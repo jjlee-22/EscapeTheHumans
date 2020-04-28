@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PatrolBehaivoir : StateMachineBehaviour
 {
-    public float speed;
     private float waitTime;
     public float startwaittime;
 
@@ -26,11 +25,18 @@ public class PatrolBehaivoir : StateMachineBehaviour
         float oldY=animator.transform.position.y;
         if(Vector2.Distance(animator.transform.position, movespots[randomspot].position) > 0.2f)
         {
-        animator.transform.position = Vector2.MoveTowards(animator.transform.position, movespots[randomspot].position, speed * Time.deltaTime);
+        animator.transform.position = Vector2.MoveTowards(animator.transform.position, movespots[randomspot].position, animator.GetFloat("Speed") * Time.deltaTime);
         }
         else
         {
-             randomspot = Random.Range(0, movespots.Length);
+             if(waitTime<=0)
+            {
+                randomspot = Random.Range(0, movespots.Length);
+                waitTime = startwaittime;
+            }
+            else{
+                waitTime -= Time.deltaTime;
+            }
         }
         Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
         animator.SetFloat("Horizontal", movement.x-oldX);
@@ -39,7 +45,7 @@ public class PatrolBehaivoir : StateMachineBehaviour
         
         Transform target=GameObject.FindGameObjectWithTag("Player").transform;
          if(Vector2.Distance(animator.transform.position, target.position) > 2 && !animator.GetBool("hadDialog")){
-                if(Vector2.Distance(animator.transform.position, target.position) <5)
+                if(Vector2.Distance(animator.transform.position, target.position) <animator.GetFloat("Range"))
                 {
                     animator.SetBool("isFollowing",true);
                     animator.SetBool("isPatrolling",false);

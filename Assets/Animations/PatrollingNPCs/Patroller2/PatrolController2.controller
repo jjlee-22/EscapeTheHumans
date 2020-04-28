@@ -96,8 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67fca715786ca4429710fe2634ca6bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  startwaittime: 5
+  startwaittime: 2
   movespots: []
 --- !u!206 &-3655877894206996852
 BlendTree:
@@ -158,7 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6075e1a76a68f45818970b77a3c71e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -225,6 +223,18 @@ AnimatorController:
   - m_Name: originalY
     m_Type: 1
     m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Speed
+    m_Type: 1
+    m_DefaultFloat: 1
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Range
+    m_Type: 1
+    m_DefaultFloat: 5
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
