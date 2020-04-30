@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StressBar
   - talker
+  - ObjectiveManager
   layers:
   - Default
   - TransparentFX
