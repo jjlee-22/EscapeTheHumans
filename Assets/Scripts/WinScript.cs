@@ -28,6 +28,7 @@ public class WinScript : MonoBehaviour
         if (objectiveManager.levelComplete)
         {
             winText.text = "Congratulations!" + Environment.NewLine + "You made it to class while avoiding people!";
+            Music.StopMusic();
             GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled = false;
             mainMenu.interactable = true;
             mainMenu.GetComponentInChildren<Text>().text = "Main Menu";
