@@ -1517,13 +1517,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mrs. Smith
+    name: Jon
     isDialogueTree: 0
     sentences:
     - sentence: Good morning, Sam!
       isFinal: 0
       effectOnStress: 0.05
-    - sentence: Have a good day at school!
+    - sentence: Ready for another great day?
       isFinal: 1
       effectOnStress: 0
     yesSentences: []
@@ -2374,17 +2374,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mrs. Smith
-    isDialogueTree: 0
+    name: Mia
+    isDialogueTree: 1
     sentences:
-    - sentence: Good morning, Sam!
+    - sentence: Morning. Are you already ready to go home? Or just me?
       isFinal: 0
-      effectOnStress: 0.05
-    - sentence: Have a good day at school!
+      effectOnStress: 0.02
+    yesSentences:
+    - sentence: Not just me then. I'm so ready for the semester to be over, are you?
+      isFinal: 0
+      effectOnStress: 0.01
+    - sentence: We're so close!
       isFinal: 1
       effectOnStress: 0
-    yesSentences: []
-    noSentences: []
+    noSentences:
+    - sentence: Okay then. I want to go home.
+      isFinal: 1
+      effectOnStress: 0.02
+    - sentence: I guess some people enjoy being here.
+      isFinal: 1
+      effectOnStress: 0.02
 --- !u!50 &517367493
 Rigidbody2D:
   serializedVersion: 4
@@ -4018,17 +4027,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mrs. Smith
-    isDialogueTree: 0
+    name: Mason
+    isDialogueTree: 1
     sentences:
-    - sentence: Good morning, Sam!
+    - sentence: Yo! Can I copy your homework real quick?
       isFinal: 0
       effectOnStress: 0.05
-    - sentence: Have a good day at school!
-      isFinal: 1
+    yesSentences:
+    - sentence: Thanks! You're the best!
+      isFinal: 0
       effectOnStress: 0
-    yesSentences: []
-    noSentences: []
+    noSentences:
+    - sentence: Thanks for nothing.
+      isFinal: 1
+      effectOnStress: 0.03
 --- !u!50 &856247213
 Rigidbody2D:
   serializedVersion: 4
@@ -11947,15 +11959,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mrs. Smith
+    name: Rebecca
     isDialogueTree: 0
     sentences:
-    - sentence: Good morning, Sam!
+    - sentence: Some girl out front tried to recruit me to her obvious pyramic scheme.
       isFinal: 0
-      effectOnStress: 0.05
-    - sentence: Have a good day at school!
+      effectOnStress: 0.02
+    - sentence: I mean, what kind of pitch is "oh its totally not a pyramid scheme"?
+      isFinal: 0
+      effectOnStress: 0.01
+    - sentence: Like yeah, ok dude. That's exactly what someone running a pyramid
+        scheme would say.
       isFinal: 1
-      effectOnStress: 0
+      effectOnStress: 0.01
     yesSentences: []
     noSentences: []
 --- !u!50 &1562727672
@@ -13485,20 +13501,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mr. Stevens
-    isDialogueTree: 1
+    name: Dr. Simpson
+    isDialogueTree: 0
     sentences:
-    - sentence: Hey kid! Are you headed to school?
+    - sentence: Sam! You're just in time. Take your seat.
       isFinal: 0
-      effectOnStress: 0.02
-    yesSentences:
-    - sentence: I remember when I was in school. You're going to miss it one day!
-      isFinal: 1
-      effectOnStress: 0
-    noSentences:
-    - sentence: Its not good to skip classes! Your mother will be upset with you!
-      isFinal: 1
       effectOnStress: 0.03
+    yesSentences: []
+    noSentences: []
 --- !u!50 &1810361257
 Rigidbody2D:
   serializedVersion: 4
