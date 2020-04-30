@@ -26,6 +26,10 @@ public class PatrolBehaivoir : StateMachineBehaviour
         if(Vector2.Distance(animator.transform.position, movespots[randomspot].position) > 0.2f)
         {
         animator.transform.position = Vector2.MoveTowards(animator.transform.position, movespots[randomspot].position, animator.GetFloat("Speed") * Time.deltaTime);
+        Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
+        animator.SetFloat("Horizontal", movement.x-oldX);
+        animator.SetFloat("Vertical", movement.y-oldY);
+        animator.SetFloat("Magnitude", movement.magnitude);       
         }
         else
         {
@@ -38,10 +42,6 @@ public class PatrolBehaivoir : StateMachineBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
-        Vector3 movement = new Vector3(animator.transform.position.x, animator.transform.position.y, 0.0f);
-        animator.SetFloat("Horizontal", movement.x-oldX);
-        animator.SetFloat("Vertical", movement.y-oldY);
-        animator.SetFloat("Magnitude", movement.magnitude);
         
         Transform target=GameObject.FindGameObjectWithTag("Player").transform;
          if(Vector2.Distance(animator.transform.position, target.position) > 2 && !animator.GetBool("hadDialog")){

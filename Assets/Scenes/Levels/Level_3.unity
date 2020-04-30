@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -132,12 +132,12 @@ GameObject:
   - component: {fileID: 18752593}
   - component: {fileID: 18752592}
   - component: {fileID: 18752591}
-  - component: {fileID: 18752590}
   - component: {fileID: 18752589}
   - component: {fileID: 18752588}
   - component: {fileID: 18752587}
+  - component: {fileID: 18752590}
   m_Layer: 0
-  m_Name: neighbor_1 (4)
+  m_Name: girl_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,7 +205,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.18}
+    oldSize: {x: 0.16, y: 0.2}
     newSize: {x: 0.14, y: 0.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -221,13 +221,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18752586}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ff45c9d2e434348a139f5a70e84749, type: 3}
+  m_Script: {fileID: 11500000, guid: ad44dfe1d242e2d46b138ebb094e8fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  dialogueTrigger: {fileID: 18752587}
+  speed: 0
+  startwaittime: 0
+  movespots:
+  - {fileID: 1057791280}
+  - {fileID: 1779510683}
+  animator: {fileID: 0}
 --- !u!95 &18752591
 Animator:
   serializedVersion: 3
@@ -238,7 +242,7 @@ Animator:
   m_GameObject: {fileID: 18752586}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 00ea7d11d91a8a940803e25f18585594, type: 2}
+  m_Controller: {fileID: 9100000, guid: e00e13318274c7f4cad4d0ffe1958de3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -285,8 +289,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 7018902999253810801, guid: e7f0b14a25103c846b41f658d89e514a,
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -8624401864033079054, guid: e7f0b14a25103c846b41f658d89e514a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -306,7 +310,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18752586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.04, y: 2.39, z: 0}
+  m_LocalPosition: {x: -1, y: 2, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 2111924027}
@@ -329,7 +333,7 @@ GameObject:
   - component: {fileID: 57118262}
   - component: {fileID: 57118261}
   m_Layer: 0
-  m_Name: neighbor_1 (1)
+  m_Name: boy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -397,7 +401,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.18}
+    oldSize: {x: 0.14, y: 0.19}
     newSize: {x: 0.14, y: 0.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -430,7 +434,7 @@ Animator:
   m_GameObject: {fileID: 57118260}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 00ea7d11d91a8a940803e25f18585594, type: 2}
+  m_Controller: {fileID: 9100000, guid: cd9b1e657f81d544aa68ffdafa8499fa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -478,7 +482,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7018902999253810801, guid: e7f0b14a25103c846b41f658d89e514a,
+  m_Sprite: {fileID: 3161806073650375524, guid: e7f0b14a25103c846b41f658d89e514a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -835,6 +839,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &159968808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159968809}
+  m_Layer: 0
+  m_Name: teacher_1_spot2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &159968809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159968808}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 800416528}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &178666147
 GameObject:
   m_ObjectHideFlags: 0
@@ -22144,12 +22178,12 @@ GameObject:
   - component: {fileID: 351410714}
   - component: {fileID: 351410713}
   - component: {fileID: 351410712}
-  - component: {fileID: 351410711}
   - component: {fileID: 351410710}
   - component: {fileID: 351410709}
   - component: {fileID: 351410708}
+  - component: {fileID: 351410711}
   m_Layer: 0
-  m_Name: neighbor_1 (2)
+  m_Name: teacher_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22217,7 +22251,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.18}
+    oldSize: {x: 0.18571429, y: 0.22625}
     newSize: {x: 0.14, y: 0.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -22233,13 +22267,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351410707}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ff45c9d2e434348a139f5a70e84749, type: 3}
+  m_Script: {fileID: 11500000, guid: ad44dfe1d242e2d46b138ebb094e8fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  dialogueTrigger: {fileID: 351410708}
+  speed: 0
+  startwaittime: 0
+  movespots:
+  - {fileID: 584983551}
+  - {fileID: 159968809}
+  - {fileID: 516826159}
+  animator: {fileID: 0}
 --- !u!95 &351410712
 Animator:
   serializedVersion: 3
@@ -22250,7 +22289,7 @@ Animator:
   m_GameObject: {fileID: 351410707}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 00ea7d11d91a8a940803e25f18585594, type: 2}
+  m_Controller: {fileID: 9100000, guid: eb71a4896b977a2409eb4630772cd0a7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -22298,7 +22337,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7018902999253810801, guid: e7f0b14a25103c846b41f658d89e514a,
+  m_Sprite: {fileID: 8594940326900698911, guid: eb6a4298d16d1d44790d0f09e38aef5a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22522,6 +22561,66 @@ Transform:
   m_Father: {fileID: 1363550144}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &516826158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516826159}
+  m_Layer: 0
+  m_Name: teacher_1_spot3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &516826159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516826158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 800416528}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &584983550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 584983551}
+  m_Layer: 0
+  m_Name: teacher_1_spot1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &584983551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584983550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 800416528}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &654410640
 GameObject:
   m_ObjectHideFlags: 0
@@ -22538,7 +22637,7 @@ GameObject:
   - component: {fileID: 654410642}
   - component: {fileID: 654410641}
   m_Layer: 0
-  m_Name: neighbor_1 (3)
+  m_Name: girl_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22606,7 +22705,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.18}
+    oldSize: {x: 0.16, y: 0.19}
     newSize: {x: 0.14, y: 0.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -22639,7 +22738,7 @@ Animator:
   m_GameObject: {fileID: 654410640}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 00ea7d11d91a8a940803e25f18585594, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9e61064a19dc1b148b613861773d7363, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -22687,7 +22786,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7018902999253810801, guid: e7f0b14a25103c846b41f658d89e514a,
+  m_Sprite: {fileID: -8983905106464567026, guid: e7f0b14a25103c846b41f658d89e514a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22771,6 +22870,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.070613, y: 0.7367258}
   m_EdgeRadius: 0
+--- !u!1 &800416527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800416528}
+  m_Layer: 0
+  m_Name: teacher_1_spots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &800416528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800416527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7, z: 154.88858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 584983551}
+  - {fileID: 159968809}
+  - {fileID: 516826159}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &819723366
 GameObject:
   m_ObjectHideFlags: 0
@@ -23277,6 +23409,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.9751806, y: 1.5116692}
   m_EdgeRadius: 0
+--- !u!1 &1057791279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057791280}
+  m_Layer: 0
+  m_Name: girl_1_spot1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1057791280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057791279}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2030096080}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1068299388
 GameObject:
   m_ObjectHideFlags: 0
@@ -25083,6 +25245,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.2353592, y: 0.7367258}
   m_EdgeRadius: 0
+--- !u!1 &1779510682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779510683}
+  m_Layer: 0
+  m_Name: girl_1_spot2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1779510683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779510682}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2030096080}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1842982058
 GameObject:
   m_ObjectHideFlags: 0
@@ -25669,7 +25861,7 @@ GameObject:
   - component: {fileID: 2008660201}
   - component: {fileID: 2008660200}
   m_Layer: 0
-  m_Name: neighbor_1
+  m_Name: teacher_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25737,7 +25929,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.18}
+    oldSize: {x: 0.18571429, y: 0.22625}
     newSize: {x: 0.14, y: 0.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -25770,7 +25962,7 @@ Animator:
   m_GameObject: {fileID: 2008660199}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 00ea7d11d91a8a940803e25f18585594, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4121e1b4934c158489e57436d909f121, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -25818,7 +26010,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7018902999253810801, guid: e7f0b14a25103c846b41f658d89e514a,
+  m_Sprite: {fileID: -5478866845776348238, guid: eb6a4298d16d1d44790d0f09e38aef5a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25844,6 +26036,38 @@ Transform:
   - {fileID: 819723367}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2030096079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2030096080}
+  m_Layer: 0
+  m_Name: girl_1_spots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2030096080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030096079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: -1, z: 101.56016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1057791280}
+  - {fileID: 1779510683}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042024167
 GameObject:
