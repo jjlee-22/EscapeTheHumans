@@ -1,0 +1,1447 @@
+fileFormatVersion: 2
+guid: 0305ea364e0139742bc2eba1c353b05c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -557438238230548161
+    second: pokemonSprites_cut2Reverse_0
+  - first:
+      213: 8920325601749639362
+    second: pokemonSprites_cut2Reverse_1
+  - first:
+      213: -2133132289959081064
+    second: pokemonSprites_cut2Reverse_2
+  - first:
+      213: 1965461216062545816
+    second: pokemonSprites_cut2Reverse_3
+  - first:
+      213: 6208392265158571618
+    second: pokemonSprites_cut2Reverse_4
+  - first:
+      213: -6371076054318666360
+    second: pokemonSprites_cut2Reverse_5
+  - first:
+      213: 3476748212702178069
+    second: pokemonSprites_cut2Reverse_6
+  - first:
+      213: -3652741129389891113
+    second: pokemonSprites_cut2Reverse_7
+  - first:
+      213: 1856964934785239347
+    second: pokemonSprites_cut2Reverse_8
+  - first:
+      213: -4153613040238321168
+    second: pokemonSprites_cut2Reverse_9
+  - first:
+      213: 2080479001084008702
+    second: pokemonSprites_cut2Reverse_10
+  - first:
+      213: 8717590371064673161
+    second: pokemonSprites_cut2Reverse_11
+  - first:
+      213: -4220170340869991809
+    second: pokemonSprites_cut2Reverse_12
+  - first:
+      213: 2542782533458277229
+    second: pokemonSprites_cut2Reverse_13
+  - first:
+      213: 4709910071945494323
+    second: pokemonSprites_cut2Reverse_14
+  - first:
+      213: 3020518108843782980
+    second: pokemonSprites_cut2Reverse_15
+  - first:
+      213: 6107601575849253414
+    second: pokemonSprites_cut2Reverse_16
+  - first:
+      213: 239230551025738442
+    second: pokemonSprites_cut2Reverse_17
+  - first:
+      213: -7469775317080135650
+    second: pokemonSprites_cut2Reverse_18
+  - first:
+      213: 4097369943976078755
+    second: pokemonSprites_cut2Reverse_19
+  - first:
+      213: -2563830141590820396
+    second: pokemonSprites_cut2Reverse_20
+  - first:
+      213: 8943885723670383930
+    second: pokemonSprites_cut2Reverse_21
+  - first:
+      213: -3157748700387639997
+    second: pokemonSprites_cut2Reverse_22
+  - first:
+      213: 6540929235809699863
+    second: pokemonSprites_cut2Reverse_23
+  - first:
+      213: -789094398758323678
+    second: pokemonSprites_cut2Reverse_24
+  - first:
+      213: 5390034672301924143
+    second: pokemonSprites_cut2Reverse_25
+  - first:
+      213: -5035121607794062701
+    second: pokemonSprites_cut2Reverse_26
+  - first:
+      213: -29718239109437631
+    second: pokemonSprites_cut2Reverse_27
+  - first:
+      213: -5526574960624244958
+    second: pokemonSprites_cut2Reverse_28
+  - first:
+      213: -3643450398470078803
+    second: pokemonSprites_cut2Reverse_29
+  - first:
+      213: 6040254331947276082
+    second: pokemonSprites_cut2Reverse_30
+  - first:
+      213: 253687193937088333
+    second: pokemonSprites_cut2Reverse_31
+  - first:
+      213: -5220280422112848264
+    second: pokemonSprites_cut2Reverse_32
+  - first:
+      213: -4203572230687951234
+    second: pokemonSprites_cut2Reverse_33
+  - first:
+      213: -1517254386998012415
+    second: pokemonSprites_cut2Reverse_34
+  - first:
+      213: 2896556293827021445
+    second: pokemonSprites_cut2Reverse_35
+  - first:
+      213: -3842223290358862022
+    second: pokemonSprites_cut2Reverse_36
+  - first:
+      213: -272698113340297657
+    second: pokemonSprites_cut2Reverse_37
+  - first:
+      213: 1711708793839005118
+    second: pokemonSprites_cut2Reverse_38
+  - first:
+      213: 8480901029574879486
+    second: pokemonSprites_cut2Reverse_39
+  - first:
+      213: -1781426238941115233
+    second: pokemonSprites_cut2Reverse_40
+  - first:
+      213: -1370964631232853897
+    second: pokemonSprites_cut2Reverse_41
+  - first:
+      213: -2753343215688178947
+    second: pokemonSprites_cut2Reverse_42
+  - first:
+      213: -3243009098634287242
+    second: pokemonSprites_cut2Reverse_43
+  - first:
+      213: 6292670246749688762
+    second: pokemonSprites_cut2Reverse_44
+  - first:
+      213: 1044466299067127799
+    second: pokemonSprites_cut2Reverse_45
+  - first:
+      213: -3527993766310210688
+    second: pokemonSprites_cut2Reverse_46
+  - first:
+      213: -6461933109654198475
+    second: pokemonSprites_cut2Reverse_47
+  - first:
+      213: 7876001230244843923
+    second: pokemonSprites_cut2Reverse_48
+  - first:
+      213: 841066384244238623
+    second: pokemonSprites_cut2Reverse_49
+  - first:
+      213: 560977124684847885
+    second: pokemonSprites_cut2Reverse_50
+  - first:
+      213: 7692870740857264141
+    second: pokemonSprites_cut2Reverse_51
+  - first:
+      213: -7386246979297164135
+    second: pokemonSprites_cut2Reverse_52
+  - first:
+      213: 1583998919628573482
+    second: pokemonSprites_cut2Reverse_53
+  - first:
+      213: 5477056605827380745
+    second: pokemonSprites_cut2Reverse_54
+  - first:
+      213: 3788539617434011456
+    second: pokemonSprites_cut2Reverse_55
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f317c0230e49348f0800000000000000
+      internalID: -557438238230548161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 159
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c02c157fdc5bcb70800000000000000
+      internalID: 8920325601749639362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 159
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bc21eeb779562e0800000000000000
+      internalID: -2133132289959081064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 159
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f17330098b64b10800000000000000
+      internalID: 1965461216062545816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 159
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2663f072fd3a82650800000000000000
+      internalID: 6208392265158571618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 159
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88da65185146597a0800000000000000
+      internalID: -6371076054318666360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 159
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b669f2414ef3030800000000000000
+      internalID: 3476748212702178069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 136
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1a14ebb4bde4dc0800000000000000
+      internalID: -3652741129389891113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 136
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3390b3205c345c910800000000000000
+      internalID: 1856964934785239347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 136
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f12a2a52f66b56c0800000000000000
+      internalID: -4153613040238321168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 136
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8954ee0a85fdc10800000000000000
+      internalID: 2080479001084008702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 136
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983fca4314a1bf870800000000000000
+      internalID: 8717590371064673161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_12
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 136
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f721ec43f61fe65c0800000000000000
+      internalID: -4220170340869991809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 136
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6339dfed37c94320800000000000000
+      internalID: 2542782533458277229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 114
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f785a9146fc5140800000000000000
+      internalID: 4709910071945494323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 114
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443b44377390be920800000000000000
+      internalID: 3020518108843782980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 114
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a5c16164f82c450800000000000000
+      internalID: 6107601575849253414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 114
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac26f4d2beae15300800000000000000
+      internalID: 239230551025738442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 114
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e182579fce6065890800000000000000
+      internalID: -7469775317080135650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 114
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad6e085148ccd830800000000000000
+      internalID: 4097369943976078755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_20
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 114
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d92a0ae1127b6cd0800000000000000
+      internalID: -2563830141590820396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 93
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d8f0fcda01f1c70800000000000000
+      internalID: 8943885723670383930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_22
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 93
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d7177994c6d24d0800000000000000
+      internalID: -3157748700387639997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 93
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71887611c7c06ca50800000000000000
+      internalID: 6540929235809699863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_24
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 93
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a72cb33d29c05f0800000000000000
+      internalID: -789094398758323678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 93
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f58911aff3dca40800000000000000
+      internalID: 5390034672301924143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 93
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a8a8e2397af1ab0800000000000000
+      internalID: -5035121607794062701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_27
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 93
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14728824b6b669ff0800000000000000
+      internalID: -29718239109437631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 70
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2276c67ba59ad43b0800000000000000
+      internalID: -5526574960624244958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_29
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 70
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae7f6a9a2ddf6dc0800000000000000
+      internalID: -3643450398470078803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 70
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375bb0ff4b43d350800000000000000
+      internalID: 6040254331947276082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 70
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f8fa6a827458300800000000000000
+      internalID: 253687193937088333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_32
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 70
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87699044d96dd87b0800000000000000
+      internalID: -5220280422112848264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_33
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 70
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76f522e359e9a5c0800000000000000
+      internalID: -4203572230687951234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 70
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106941d7c21a1fae0800000000000000
+      internalID: -1517254386998012415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 47
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a4b754a92a23820800000000000000
+      internalID: 2896556293827021445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 47
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f6d6e364eadaac0800000000000000
+      internalID: -3842223290358862022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 47
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74eae6fb28e273cf0800000000000000
+      internalID: -272698113340297657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_38
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 47
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdafa7341631c710800000000000000
+      internalID: 1711708793839005118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_39
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 47
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef82e0b7d8632b570800000000000000
+      internalID: 8480901029574879486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_40
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 47
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cca5a264a1747e0800000000000000
+      internalID: -1781426238941115233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_41
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 47
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778cdbb7eea59fce0800000000000000
+      internalID: -1370964631232853897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 24
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2ac24eee82ac9d0800000000000000
+      internalID: -2753343215688178947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 24
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6772b8038648ef2d0800000000000000
+      internalID: -3243009098634287242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 24
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab35f2adf3e045750800000000000000
+      internalID: 6292670246749688762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_45
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 24
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f753cfa090be7e00800000000000000
+      internalID: 1044466299067127799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_46
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 24
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08399459c5c0a0fc0800000000000000
+      internalID: -3527993766310210688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_47
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 24
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537e9b4d21a9256a0800000000000000
+      internalID: -6461933109654198475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_48
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 24
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391984bd36d2d4d60800000000000000
+      internalID: 7876001230244843923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_49
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1966699b611cab00800000000000000
+      internalID: 841066384244238623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bd5f309bdf8c700800000000000000
+      internalID: 560977124684847885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_51
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d081bc32e2192ca60800000000000000
+      internalID: 7692870740857264141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_52
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994c0bf9187ce7990800000000000000
+      internalID: -7386246979297164135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_53
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b401100ae7bf510800000000000000
+      internalID: 1583998919628573482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_54
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9063c0dd6f9620c40800000000000000
+      internalID: 5477056605827380745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemonSprites_cut2Reverse_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04706a2a5b8939430800000000000000
+      internalID: 3788539617434011456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

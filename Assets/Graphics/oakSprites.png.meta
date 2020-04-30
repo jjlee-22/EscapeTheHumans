@@ -164,6 +164,42 @@ TextureImporter:
   - first:
       213: -3169511845987935460
     second: oakSprites_53
+  - first:
+      213: -3008928958550924367
+    second: oakSprites_0
+  - first:
+      213: -8858589275547567084
+    second: oakSprites_1
+  - first:
+      213: -1771857641041692354
+    second: oakSprites_2
+  - first:
+      213: 5232475122245466517
+    second: oakSprites_3
+  - first:
+      213: -6986380541645695182
+    second: oakSprites_4
+  - first:
+      213: 1753070419418731106
+    second: oakSprites_5
+  - first:
+      213: 3810239925237259275
+    second: oakSprites_6
+  - first:
+      213: -4269094641867363713
+    second: oakSprites_7
+  - first:
+      213: -7867527343853362174
+    second: oakSprites_8
+  - first:
+      213: 8261254088165176680
+    second: oakSprites_9
+  - first:
+      213: 5977149577410287407
+    second: oakSprites_10
+  - first:
+      213: 9011498934366564265
+    second: oakSprites_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -251,19 +287,19 @@ TextureImporter:
       name: oakSprites_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 137
-        width: 25
-        height: 30
-      alignment: 9
-      pivot: {x: 0.5345488, y: 0.5287908}
+        x: 20
+        y: 114
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d013f907a08e15560800000000000000
-      internalID: 7300871602481082637
+      spriteID: 1b3af2fdd032e36d0800000000000000
+      internalID: -3008928958550924367
       vertices: []
       indices: 
       edges: []
@@ -272,19 +308,19 @@ TextureImporter:
       name: oakSprites_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 137
-        width: 25
-        height: 30
+        x: 53
+        y: 114
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c0f7c80fc7875b0800000000000000
-      internalID: -5370405183048184779
+      spriteID: 41cf6eb1df7ff0580800000000000000
+      internalID: -8858589275547567084
       vertices: []
       indices: 
       edges: []
@@ -293,19 +329,19 @@ TextureImporter:
       name: oakSprites_2
       rect:
         serializedVersion: 2
-        x: 93
-        y: 137
-        width: 25
-        height: 30
+        x: 84
+        y: 113
+        width: 17
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2953dbedbd32977f0800000000000000
-      internalID: -614420446917610094
+      spriteID: e39f529fcd81967e0800000000000000
+      internalID: -1771857641041692354
       vertices: []
       indices: 
       edges: []
@@ -314,19 +350,19 @@ TextureImporter:
       name: oakSprites_3
       rect:
         serializedVersion: 2
-        x: 18
-        y: 111
-        width: 25
-        height: 30
+        x: 21
+        y: 81
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ea7a98ec2033f0b0800000000000000
-      internalID: -5696156134254413086
+      spriteID: 599728d966c7d9840800000000000000
+      internalID: 5232475122245466517
       vertices: []
       indices: 
       edges: []
@@ -335,19 +371,19 @@ TextureImporter:
       name: oakSprites_4
       rect:
         serializedVersion: 2
-        x: 47
-        y: 112
-        width: 25
-        height: 30
+        x: 53
+        y: 81
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f0f9e64c820af680800000000000000
-      internalID: -8720654926941130512
+      spriteID: 237d18da9e36b0f90800000000000000
+      internalID: -6986380541645695182
       vertices: []
       indices: 
       edges: []
@@ -356,19 +392,19 @@ TextureImporter:
       name: oakSprites_5
       rect:
         serializedVersion: 2
-        x: 68
-        y: 107
-        width: 25
-        height: 30
+        x: 84
+        y: 82
+        width: 17
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c7dd0e65c61e810800000000000000
-      internalID: 1792833247065767015
+      spriteID: 262d2bf1248245810800000000000000
+      internalID: 1753070419418731106
       vertices: []
       indices: 
       edges: []
@@ -377,19 +413,19 @@ TextureImporter:
       name: oakSprites_6
       rect:
         serializedVersion: 2
-        x: 81
-        y: 110
-        width: 25
-        height: 30
-      alignment: 9
-      pivot: {x: 0.4481775, y: 0.5431862}
+        x: 21
+        y: 50
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d20bb39f1cc903410800000000000000
-      internalID: 1454835036564729901
+      spriteID: b0c17c44601b0e430800000000000000
+      internalID: 3810239925237259275
       vertices: []
       indices: 
       edges: []
@@ -398,19 +434,19 @@ TextureImporter:
       name: oakSprites_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 77
-        width: 25
-        height: 30
+        x: 53
+        y: 49
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed87421d50956770800000000000000
-      internalID: 8603441392574238181
+      spriteID: f7ae8f6ba0121c4c0800000000000000
+      internalID: -4269094641867363713
       vertices: []
       indices: 
       edges: []
@@ -419,19 +455,19 @@ TextureImporter:
       name: oakSprites_8
       rect:
         serializedVersion: 2
-        x: 47
-        y: 77
-        width: 25
-        height: 30
+        x: 84
+        y: 49
+        width: 17
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f1e6073abafdfdf0800000000000000
-      internalID: -144683935311928843
+      spriteID: 204a2f0909de0d290800000000000000
+      internalID: -7867527343853362174
       vertices: []
       indices: 
       edges: []
@@ -440,19 +476,19 @@ TextureImporter:
       name: oakSprites_9
       rect:
         serializedVersion: 2
-        x: 78
-        y: 77
-        width: 25
-        height: 30
+        x: 21
+        y: 17
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 498d740585f97da80800000000000000
-      internalID: -8442103774829881196
+      spriteID: 865345cb2ded5a270800000000000000
+      internalID: 8261254088165176680
       vertices: []
       indices: 
       edges: []
@@ -461,19 +497,19 @@ TextureImporter:
       name: oakSprites_10
       rect:
         serializedVersion: 2
-        x: 93
-        y: 77
-        width: 25
-        height: 30
+        x: 52
+        y: 17
+        width: 17
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61102b0dd3bfc0a90800000000000000
-      internalID: -7346220649235218154
+      spriteID: f279ae25fd913f250800000000000000
+      internalID: 5977149577410287407
       vertices: []
       indices: 
       edges: []
@@ -482,166 +518,19 @@ TextureImporter:
       name: oakSprites_11
       rect:
         serializedVersion: 2
-        x: 18
-        y: 47
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51c710e9e56117e60800000000000000
-      internalID: 7958166612174011413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oakSprites_12
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 47
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a94bcf06b55b9e0b0800000000000000
-      internalID: -5698824449386826598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oakSprites_13
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 47
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c779dfc630cd7f50800000000000000
-      internalID: 6880867147339888584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oakSprites_14
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 47
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20bd2ed93bf26b8f0800000000000000
-      internalID: -525179858047542526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oakSprites_15
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 15
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44ebf9621606e4630800000000000000
-      internalID: 3913171096607637060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oakSprites_16
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a613e5d66168128c0800000000000000
-      internalID: -4025789161010220694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oakSprites_17
-      rect:
-        serializedVersion: 2
-        x: 79
+        x: 84
         y: 17
-        width: 25
-        height: 30
+        width: 17
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbd351d206cbcc970800000000000000
-      internalID: 8776596895097503164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oakSprites_18
-      rect:
-        serializedVersion: 2
-        x: 93
-        y: 17
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a055f8e4760fdee0800000000000000
-      internalID: -1234260673681862491
+      spriteID: 9afeabc29864f0d70800000000000000
+      internalID: 9011498934366564265
       vertices: []
       indices: 
       edges: []
