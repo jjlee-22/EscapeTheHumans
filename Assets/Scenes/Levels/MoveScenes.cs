@@ -18,6 +18,7 @@ public class MoveScenes : MonoBehaviour
                 if (om.levelComplete)
                 {
                     SceneManager.LoadScene(newLevel);
+                    SoundManagerScript.PlaySound("door");
                 }
             }
             catch

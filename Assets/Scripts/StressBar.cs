@@ -62,6 +62,7 @@ public class StressBar : MonoBehaviour
 		if (!(stressLevel >= maxStress) && !(tempStress >= maxStress))
 		{
 			stressLevel += amount;
+            SoundManagerScript.PlaySound("hurt");
 		}
 		else if (!(stressLevel >= maxStress) && (tempStress >= maxStress))
 		{

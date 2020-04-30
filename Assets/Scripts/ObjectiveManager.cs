@@ -37,6 +37,11 @@ public class ObjectiveManager : MonoBehaviour
             if(Vector2.Distance(o.objective.transform.position, player.position) < 1)
             {
                 o.hasCompleted = true;
+                if(o.objective.activeSelf)
+                {
+                    SoundManagerScript.PlaySound("money");
+                }
+                o.objective.SetActive(false);
             }
         }
     }
@@ -59,6 +64,7 @@ public class ObjectiveManager : MonoBehaviour
         if (objectiveListText.text == "")
         {
             objectiveListNameText.text = "All objectives complete!";
+            //SoundManagerScript.PlaySound("money");
             levelComplete = true;
         }
     }
